@@ -13,6 +13,7 @@ dpkg -l | grep qt # Check Qt (2)
 ## Build
 ```
 # Docker settings if you don't use Ubuntu.
+# Or WSL You don't need to container
 ~~~
 # build
 mkdir build
