@@ -1,6 +1,9 @@
-
+#include <QCoreApplication>
+#include <QDebug>
 
 int main(int argc, char* argv[]){
-    std::cout << "Hello World" << '\n';
-    return 0;
+    QCoreApplication app(argc, argv);
+
+    qDebug() << "Qt library is working!";
+    return app.exec();
 }
